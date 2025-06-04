@@ -6,3 +6,23 @@ obj/
 *.log
 .vscode/
 .DS_Store
+
+# Rust build output
+target/
+**/target/
+
+# Rust toolchains and documentation
+.rustup/
+.cargo/
+.cache/
+toolchains/
+rustup/
+
+# OS files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# その他不要ファイル
+*.log
