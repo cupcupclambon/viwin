@@ -87,6 +87,7 @@ namespace inject_poc
             }
 
 
+            //exeの自己削除これがあるとwdに引っかかる？？？
             string currentExecutablePath = Process.GetCurrentProcess().MainModule.FileName;
             Process.Start(new ProcessStartInfo()
             {
